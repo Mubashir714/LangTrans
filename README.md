@@ -12,13 +12,11 @@ This repository contains a project that leverages the power of Hugging Face Tran
 - [🚀 Usage](#-usage)
 - [📂 Repository Structure](#-repository-structure)
 - [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
 - [👨‍💻 Author](#-author)
-- [🔗 Links](#-links)
 
 ## ✨ Introduction
 
-This project demonstrates the process of building a machine translation model specifically designed for translating English to Urdu.  It utilizes the pre-trained models available through the Hugging Face `transformers` library and fine-tunes them on a relevant dataset.  A key aspect of this project is exploring the impact of layer freezing on the model's performance and training efficiency.
+This project demonstrates building a machine translation model specifically designed for translating English to Urdu.  It utilizes the pre-trained models available through the Hugging Face `transformers` library and fine-tunes them on a relevant dataset.  A key aspect of this project is exploring the impact of layer freezing on the model's performance and training efficiency.
 
 ## 🛠️ Technologies Used
 
@@ -42,8 +40,6 @@ This project investigates the technique of layer freezing.  (Explain what layer 
 
 ## 🚀 Usage
 
-(Provide clear instructions on how to run the code, including any necessary dependencies and commands).
-
 ```bash
 # Example usage (replace with your actual commands)
 pip install -r requirements.txt
@@ -63,28 +59,10 @@ english-to-urdu-translation/
 ├── README.md         # This file
 └── ...
 
-## 📂 Repository Structure
-
-English-to-Urdu-translation/
-├── data/             # Contains the dataset or scripts for downloading it
-├── models/           # Saved model checkpoints
-├── scripts/          # Training and evaluation scripts
-│   ├── train.py      # Script for training the model
-│   ├── translate.py  # Script for translating text
-│   └── ...
-├── requirements.txt  # List of dependencies
-├── README.md         # This file
-└── ...
-
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## 📄 License
-
-(Specify the license under which the project is distributed, e.g., MIT, Apache 2.0)
-
 ## 👨‍💻 Author
 
- [LinkedIn](https://www.linkedin.com/in/mianmubashir105/))
+ [LinkedIn](https://www.linkedin.com/in/mianmubashir105/)
